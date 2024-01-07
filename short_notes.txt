@@ -1,0 +1,18 @@
+.title() funtion just convert the string into the title string ,
+where all the 1 letter of the word is capital.
+
+## example :
+name = DhrUviSh
+name.title() ====> Dhruvish
+
+
+DOCSTRING:
+
+Docstring is used to give proper documentation of the function 
+and how its works when we hover on the function.
+
+##example:
+def whathisfuncdo(a , b):
+    """
+    this is the example of the docstring where this line will appear when we hover on the function.
+    """

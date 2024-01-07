@@ -1,0 +1,22 @@
+                                        RANDOM MODULE
+
+random module in python uses Mersenne_Twister algorithm to generate random numbers.
+
+to random generate integeres between a specific range we can use :
+  ranom.randit(a, b)
+
+to generate a random floating point number between 0 to 1 we can use:
+    random.random()
+
+if you want to generate random number from specificranaae starting from 0 ,
+all you can do is to multiply the maximum range with the output of random.random() func.
+    random number between o to 5 :
+    number = random.random()* 5
+
+if you have a list and you want to choose any random index from that list you can choose:
+    random.choice(list_name)
+
+where if you want to randoml shuffle your data than you can simply do:
+    random.shuffle 
+    p.s = you don't need to store the values while using above 2 random operations
+

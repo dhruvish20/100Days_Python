@@ -1,0 +1,33 @@
+                                            DICTIONARY
+
+programming_dictionary = {
+    "Bug": "An error in a program that prevents the program from running as expected.", 
+    "Function": "A piece of code that you can easily call over and over again."
+}
+
+we can simply call the items in the dictionary by calling its key.
+
+#example:
+
+print(programming_dictionary["Bug"])
+
+#output:
+
+An error in a progran that prevents the program from running as expected.
+
+To add a new valur in the dictionary we can just do :
+
+programming_dictionary["Loop"] = "Need we we want to iterate over and over."
+
+SO this will add new key "Loop" in the dictionary with its string value.
+
+#besides this we should use proer datatype of the key while calling it, we have to check
+wheather it is string or numeric value and use datatype accordingly.
+
+## Loop through the f=dictionary:
+
+for key in programming_dictionary:
+    print(key)                           ====> this whill print bug , function i.e the key name from the dictionary 
+    print(programming_dictioanry[key])   ====> this wil print the value of the key form the dictionary
+
+to add new items into the dictionary we can use .append().  
