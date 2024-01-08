@@ -16,3 +16,18 @@ def whathisfuncdo(a , b):
     """
     this is the example of the docstring where this line will appear when we hover on the function.
     """
+
+GLOBLE VARIABLE:
+
+if i want to modify global variable in a local scope , than i need to use globa keyword inside the scope
+
+##example:
+
+number = 1 
+
+def func():
+    global number
+    number = 2
+    return number  
+
+print(def func())   ====> this will print 2 and this is how we can change global variable in local scope
