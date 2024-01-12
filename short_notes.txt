@@ -31,3 +31,8 @@ def func():
     return number  
 
 print(def func())   ====> this will print 2 and this is how we can change global variable in local scope
+
+
+Procedural programming:
+
+when we don't use any kinf of oop and just write an unstructured code.
