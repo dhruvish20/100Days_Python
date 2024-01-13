@@ -36,3 +36,25 @@ print(def func())   ====> this will print 2 and this is how we can change global
 Procedural programming:
 
 when we don't use any kinf of oop and just write an unstructured code.
+
+##
+You can't make empty class or empty function after defining it like :
+
+class Class:
+
+obj = Class() ----------> this will give an indentation error. 
+
+
+while you can make use of the keyword pass to define the empty class or function
+
+clas Class():
+    pass
+
+obj = Class() ----------------> this will not give you an error.
+
+
+
+Type of declaration:
+ ## Pascal case : YourName
+ ## camel case : YourName
+ ## snake case : your_name
